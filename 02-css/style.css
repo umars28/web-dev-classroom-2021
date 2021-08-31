@@ -1,0 +1,116 @@
+h1,p,h3 {
+	color: white;
+}
+
+a {
+	text-decoration: none;
+	font-family: sans-serif;
+	font-variant: small-caps;
+	font-style: normal;
+}
+header {
+	background-color: rgba(0,0,0,0.2);
+	background-size: cover;
+	width: 100%;
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	height: 100px;
+	background-attachment: fixed;
+
+
+}
+
+.header-right li {
+	padding-top: 0px;
+}
+
+.header-right-list li {
+	padding-right: 40px;
+	list-style: none;
+}
+
+.header-right-list a {
+	color: white;
+	padding-right: 40px;
+	line-height: 30px;
+	display: block;
+	text-shadow: 5px 5px 5px grey;
+	text-transform: uppercase;
+	font-weight: bold;
+
+}
+
+.header-right a:hover {
+	padding: 10px;
+	background: rgba(255, 255, 255, 0.3);
+	color: black;
+}
+
+.header-right a:active {
+	padding: 10px;
+	background-color: rgba(255, 255, 255, 0.3);
+	color: #8B0000;
+}
+
+li {
+	float: left;
+}
+
+body {
+	margin: 0;
+	width: 100%;
+	background-image: url('background_parrot.jpg');
+}
+
+.main-content {
+	background-image: url("jumbotron-bg.jpg");
+	padding: 95px 0 16px 47px;
+	background-size: cover;
+	height: 400px;
+	margin-right: 0;
+	text-align: center;
+	background-position: center;
+	background-attachment: scroll;
+}
+
+.main-content h1 {
+	padding: 80px 30px;
+	color: white;
+	text-shadow: 5px 5px 5px black;
+}
+
+#homepage {
+	padding: 170px 30px;
+	color: white;
+	text-shadow: 5px 5px 5px black;
+}
+
+#profile {
+	padding: 30px 10px;
+	color: white;
+	text-shadow: 5px 5px 5px black;
+	letter-spacing: 4px;
+}
+
+.header-up {
+	padding-top: 130px;
+	color: white;
+	text-shadow: 5px 5px 5px black;
+	letter-spacing: 4px;
+}
+
+#major {
+	padding: 10px 10px;
+	color: white;
+	text-shadow: 5px 5px 5px black;
+	font-size: 20px;
+}
+
+#country {
+	padding: 0px 30px;
+	color: white;
+	text-shadow: 5px 5px 5px black;
+	font-size: 20px;
+	letter-spacing: 3px;
+}
