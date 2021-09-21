@@ -1,0 +1,120 @@
+.jumbotron {
+	background-image: url(assets/background_parrot.jpg);
+	background-size: cover;
+	width: 100%;
+	position: static;
+}
+
+.jumbotron p, h3, h2 {
+	color: white;
+	font-size: 25px;
+  padding-top: 4px;
+}
+
+.jumbotron img {
+	padding-top: 32px;
+  padding-bottom: 10px;
+}
+
+footer {
+	color: white;
+}
+
+.typewriter p {
+  overflow: hidden; 
+  border-right: .15em solid orange; 
+  white-space: nowrap; 
+  margin: 0 auto; 
+  letter-spacing: .15em; 
+  animation: 
+  typing 3.5s steps(40, end),
+  blink-caret .75s step-end infinite;
+}
+
+
+
+.typewriter p {
+  overflow: hidden; 
+  border-right: .15em solid orange; 
+  white-space: nowrap; 
+  margin: 0 auto; 
+  letter-spacing: .15em;
+  animation: 
+    typing 2.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 75% }
+}
+
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: transparent; }
+}
+
+.list-group img {
+  width: 27px;
+  height: 27px;
+}
+
+.icon i {
+  width: 70px;
+  height: 70px;
+  margin-right: 34px;
+}
+
+.card-body img {
+  width: 37px;
+  height: 37px;
+}
+
+@media (max-width: 670px) {
+  .icon i {
+  width: 20px;
+  height: 20px;
+  margin-right: 34px;
+  }
+
+  .jumbotron img {
+    padding-bottom: 9px;
+  }
+
+  .jumbotron p,h3 {
+  color: white;
+  font-size: 18px;
+  padding-top: 4px;
+  }
+}
+
+#icon-image {
+  color: rgb(101, 69, 143);
+}
+
+.major h5,p, h3{
+  color: black;
+}
+
+.country h5,p, h3{
+  color: black;
+}
+
+.dark{
+  background-color: #222;
+  color: black;
+}
+
+#dark-mode {
+  float: right;
+}
+
+.btn-container-right {
+  margin-left: 600px;
+}
+
+
+
+
